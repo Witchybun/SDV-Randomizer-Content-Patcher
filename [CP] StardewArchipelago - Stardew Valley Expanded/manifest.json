@@ -1,0 +1,18 @@
+{
+    "Name": "Stardew Archipelago - Stardew Valley Expanded",
+    "Author": "Witchybun",
+    "Version": "1.0.0",
+    "Description": "Patching SVE content patcher content to work with StardewArchipelago.",
+    "UniqueID": "Witchybun.StardewArchipelagoSVE",
+    "MinimumApiVersion": "3.0",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+   {
+      "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+      "IsRequired": true
+   }
+  ]
+}

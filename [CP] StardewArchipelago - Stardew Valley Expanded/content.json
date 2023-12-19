@@ -1,0 +1,9 @@
+{
+    "Format": "1.29.0",
+    "Changes": [
+            {
+      "Action": "Include",
+      "FromFile": "npcs/claire.json, npcs/martin.json, npcs/morris.json, events/modifiedeventreqs.json"
+    }
+    ]
+}

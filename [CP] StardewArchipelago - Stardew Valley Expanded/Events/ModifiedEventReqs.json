@@ -1,0 +1,432 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "data/events/farmhouse",
+            "Entries": {
+                "77759254/e 191393/e 1000037/j 138/t 600 630/H": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/farmhouse",
+            "When": {
+                "HasFlag": "apAuroraVineyard"
+            },
+            "Entries": {
+                "77759254/t 600 630/H": "none/-500 -500/Abigail -301 -301 2/pause 1500/changeLocation Custom_ForestWest/viewport 58 16 true/pause 2000/playSound junimoMeep1/pause 700/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 1000/globalFade/viewport -1000 -1000/pause 1500/message \"{{i18n:Apples.OrderEvent1.01}}\"/pause 1250/end dialogue Abigail \"{{i18n:Apples.OrderEvent1.02}}\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "When": {
+                "HasSeenEvent |contains=8185295": true,
+                "HasSeenEvent |contains=191393, 502261": true
+            },
+            "Entries": {
+                "3691371": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "When": {
+                "HasSeenEvent |contains=8185295": true,
+                "HasSeenEvent |contains=191393, 502261": true
+            },
+            "Entries": {
+                "3691371": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/farm",
+            "When": {
+                "Spouse |contains=Wizard": false
+            },
+            "Entries": {
+                "5978924/y 3/d Mon Tue/e 1724095": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/farmhouse",
+            "When": {
+                "Spouse |contains=Wizard": true
+            },
+            "Entries": {
+                "5978924/y 3/d Mon Tue/e 1724095/t 600 2600": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/farm",
+            "When": {
+                "HasMod": "misscoriel.razolyn"
+            },
+            "Entries": {
+                "5978924/y 3/d Mon Tue/e 1724095": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/Town",
+            "When": {
+                "HasFlag": "apMorganSchooling"
+            },
+            "Entries": {
+                "5978924": "continue/-200 -200 0/Wizard -10 -10 0/pause 50/end"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/town",
+            "When": {
+                "HasSeenEvent |contains=1054932": true,
+                "HasSeenEvent |contains=908079, 7775926": true
+            },
+            "Entries": {
+                "69069247/z spring/z summer/z winter": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/AdventureGuild",
+            "Entries": {
+                "908073/e 908072/z winter/t 600 1900/w sunny": null,
+                "908073/e 908072/z winter/t 1910 2400/w sunny": null,
+                "908073/e 908072/z winter/w rainy": null,
+                "908073/e 908072/z spring/z summer/z fall": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/IslandWest",
+            "When": {
+                "HasFlag |contains=Island_UpgradeHouse": true,
+                "HasFlag |contains=lanceMonsterCrops": true
+            },
+            "Entries": {
+                "65360191/f Lance 2000": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/Farmhouse",
+            "When": {
+                "FarmType": "FrontierFarm",
+                "HasSeenEvent|contains=908072": true
+            },
+            "Entries": {
+                "908074/t 600 2600": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/Farmhouse",
+            "When": {
+                "HasMod": "flashshifter.GrandpasFarm",
+                "FarmType": "Standard",
+                "HasSeenEvent|contains=908072": true
+            },
+            "Entries": {
+                "908074/t 600 2600": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/Farmhouse",
+            "When": {
+                "HasMod |contains=harvz.TinyFarm": true,
+                "FarmType": "Standard"
+            },
+            "Entries": {
+                "908074/e 908072/t 600 630": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/Farmhouse",
+            "When": {
+                "HasMod |contains=flashshifter.immersivefarm2remastered, flashshifter.GrandpasFarm, harvz.TinyFarm": false,
+                "FarmType": "Standard"
+            },
+            "Entries": {
+                "908074/e 908072/t 600 630": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/Farmhouse",
+            "When": {
+                "FarmType": "zanderb14_IF2Fix"
+            },
+            "Entries": {
+                "908074/e 908072/t 600 630": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/Farmhouse",
+            "When": {
+                "FarmType": "Forest, Hilltop, Riverland, Wilderness",
+                "HasSeenEvent|contains=908072": true
+            },
+            "Entries": {
+                "908074/t 600 2600": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/Farmhouse",
+            "When": {
+                "FarmType": "FourCorners",
+                "HasSeenEvent|contains=908072": true
+            },
+            "Entries": {
+                "908074/t 600 2600": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/Farmhouse",
+            "When": {
+                "FarmType": "Beach",
+                "HasSeenEvent|contains=908072": true
+            },
+            "Entries": {
+                "908074/t 600 2600": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/Custom_AuroraVineyard",
+            "When": {
+                "Relationship:Apples": "Friendly"
+            },
+            "Entries": {
+                "908075/e 908072": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/Custom_AuroraVineyard",
+            "Entries": {
+                "908075/e 908072/f Apples 10": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/Custom_SpriteSpring2",
+            "When": {
+                "HasSeenEvent |contains=1111200": true
+            },
+            "Entries": {
+                "908076/e 908072": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/Custom_JunimoWoods",
+            "When": {
+                "HasSeenEvent |contains=1000037": true,
+                "HasFlag |contains=jojaMember": false
+            },
+            "Entries": {
+                "908077/e 908072": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/farmhouse",
+            "When": {
+                "HasFlag |contains=jojaMember": false,
+                "HasSeenEvent |contains=1337098": true,
+                "HasSeenEvent |contains=908077": true,
+                "HasSeenEvent |contains=908076": true,
+                "HasSeenEvent |contains=908075": true,
+                "HasSeenEvent |contains=908074": true,
+                "HasSeenEvent |contains=908073": true,
+                "HasSeenEvent |contains=908072": true
+            },
+            "Entries": {
+                "908078/t 600 2400": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/farmhouse",
+            "When": {
+                "HasFlag |contains=jojaMember": false,
+                "HasSeenEvent |contains=1337098": true,
+                "HasSeenEvent |contains=908077": true,
+                "HasSeenEvent |contains=908076": true,
+                "HasSeenEvent |contains=908075": true,
+                "HasSeenEvent |contains=908074": true,
+                "HasSeenEvent |contains=908073": true,
+                "HasSeenEvent |contains=908072": true
+            },
+            "Entries": {
+                "908078/t 600 2400": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/farmhouse",
+            "When": {
+                "HasFlag |contains=jojaMember": false,
+                "HasSeenEvent |contains=1337098": true,
+                "HasSeenEvent |contains=908077": true,
+                "HasSeenEvent |contains=908076": true,
+                "HasSeenEvent |contains=908075": true,
+                "HasSeenEvent |contains=908074": true,
+                "HasSeenEvent |contains=908073": true,
+                "HasSeenEvent |contains=908072": true,
+                "HasMod": "flashshifter.GrandpasFarm",
+                "FarmType": "Standard"
+            },
+            "Entries": {
+                "908078/t 600 2400": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/farmhouse",
+            "When": {
+                "HasFlag |contains=jojaMember": false,
+                "HasSeenEvent |contains=1337098": true,
+                "HasSeenEvent |contains=908077": true,
+                "HasSeenEvent |contains=908076": true,
+                "HasSeenEvent |contains=908075": true,
+                "HasSeenEvent |contains=908074": true,
+                "HasSeenEvent |contains=908073": true,
+                "HasSeenEvent |contains=908072": true,
+                "HasMod": "flashshifter.GrandpasFarm",
+                "FarmType": "Standard"
+            },
+            "Entries": {
+                "908078/t 600 2400": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/farmhouse",
+            "When": {
+                "Year |contains=3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20": true,
+                "Day |contains=28": true,
+                "HasSeenEvent |contains=908072": true
+            },
+            "Entries": {
+                "908078/t 600 2400": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/farmhouse",
+            "When": {
+                "Year |contains=3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20": true,
+                "Day |contains=28": true,
+                "HasSeenEvent |contains=908072": true,
+                "HasMod": "flashshifter.GrandpasFarm",
+                "FarmType": "Standard"
+            },
+            "Entries": {
+                "908078/t 600 2400": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/backwoods",
+            "When": {
+                "Spouse |contains=Wizard": false
+            },
+            "Entries": {
+                "908072/e 908071": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/backwoods",
+            "When": {
+                "Spouse |contains=Wizard": true
+            },
+            "Entries": {
+                "908072/e 908071": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/farm",
+            "When": {
+                "Spouse |contains=Wizard": false,
+                "HasFlag": "galaxySword",
+                "HasSeenEvent |contains=7502582": true,
+                "HasSeenEvent |contains=8050109": true,
+                "HasSeenEvent |contains=6951319": true
+            },
+            "Entries": {
+                "908070/t 600 900": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/farm",
+            "When": {
+                "Spouse |contains=Wizard": false,
+                "FarmType": "Standard",
+                "FarmType |contains=FrontierFarm": false,
+                "HasMod": "flashshifter.GrandpasFarm",
+                "HasFlag": "galaxySword",
+                "HasSeenEvent |contains=7502582": true,
+                "HasSeenEvent |contains=8050109": true,
+                "HasSeenEvent |contains=6951319": true
+            },
+            "Entries": {
+                "908070/t 600 900": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/farmhouse",
+            "When": {
+                "Spouse |contains=Wizard": true,
+                "HasFlag": "galaxySword",
+                "HasSeenEvent |contains=7502582": true,
+                "HasSeenEvent |contains=8050109": true,
+                "HasSeenEvent |contains=6951319": true
+            },
+            "Entries": {
+                "908070/t 600 900": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/town",
+            "Entries": {
+                "1579125/e 103042015/k 1090501": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/Custom_AdventurerSummit",
+            "When": {
+                "DayEvent |contains=egg festival, feast of the winter star, stardew valley fair, spirit's eve": false
+            },
+            "Entries": {
+                "1090501/e 1000034/k 1090502/f MarlonFay 1250": null
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/Custom_AdventurerSummit",
+            "When": {
+                "Year |contains=1": false,
+                "DayEvent |contains=egg festival, feast of the winter star, stardew valley fair, spirit's eve": false
+            },
+            "Entries": {
+                "1090501/e 1000034/k 1090502/b 1": null
+            }
+        }
+    ]
+}
