@@ -1,0 +1,18 @@
+{
+    "Name": "Stardew Archipelago - Alecto the Witch",
+    "Author": "Witchybun",
+    "Version": "1.0.0",
+    "Description": "Give Alecto a birthday for StardewArchipelago logic.",
+    "UniqueID": "Witchybun.StardewArchipelagoAlecto",
+    "MinimumApiVersion": "3.0",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+   {
+      "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+      "IsRequired": true
+   }
+  ]
+}
