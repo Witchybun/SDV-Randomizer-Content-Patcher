@@ -13,6 +13,10 @@
    {
       "UniqueID": "FlashShifter.StardewValleyExpandedCP",
       "IsRequired": true
+   },
+   {
+    "UniqueID": "KaitoKid.StardewArchipelago",
+    "IsRequired": true
    }
   ]
 }
