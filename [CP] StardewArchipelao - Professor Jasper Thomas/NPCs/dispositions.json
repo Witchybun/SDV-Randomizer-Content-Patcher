@@ -9,8 +9,7 @@
             "Marlon": "adult/neutral/outgoing/neutral/male/not-datable/Marnie/Town/winter 19//AdventureGuild 5 11/Marlon"
         },
         "When": {
-            "HasMod |contains=FlashShifter.StardewValleyExpandedALL,Yoshimax.BefriendMarlon,andril11.charlie, ChicoLopes.GuntherToNPC, Wolf.Gun": false,
-            "SocialGuntherandMarlon": "true"
+            "HasMod |contains=FlashShifter.StardewValleyExpandedALL,Yoshimax.BefriendMarlon,andril11.charlie, ChicoLopes.GuntherToNPC, Wolf.Gun": false
         }
       }
     ]
