@@ -5,7 +5,7 @@
       "Action": "EditData",
       "Target": "Data/NPCDispositions",
       "Entries": {
-        "Alecto": "adult/rude/neutral/neutral/female/not-datable//Other/fall 26//Custom_Alecto_WitchHutUpstairs 11 4/{{i18n:Alecto-display-name}}"
+        "Alecto": "adult/rude/neutral/neutral/female/not-datable//Other/fall 26//Custom_Alecto_WitchHutUpstairs 11 4/Alecto"
       }
     }
   ]
