@@ -1,4 +1,12 @@
-# SDV-Randomizer-Content-Patcher
-This is a repository of content patcher files that complete mod support for some mods which utilize content patchers that are deemed as required.
+# Stardew Valley Archipelago Content Patcher Content
+This repository holds content meant to be used in conjunction with [StardewArchipelago](https://github.com/agilbert1412/StardewArchipelago).
+
+The following mods are given additional patches to improve support:
+- Stardew Valley Expanded
+- Alecto the Witch
+- Professor Jasper Thomas
+
+These mods are required to be installed alongside the main mod only if you are using the mods in question during a randomizer run.
+
 # Installation
-Simply download the folders as necessary and include them alongside Stardew Archipelago.
+Download each folder needed and place them in your Mods folder.
