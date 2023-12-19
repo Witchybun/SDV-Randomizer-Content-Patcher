@@ -1,0 +1,18 @@
+{
+    "Name": "Stardew Archipelago - Professor Jasper Thomas",
+    "Author": "Witchybun",
+    "Version": "1.0.0",
+    "Description": "Makes Marlon and Gunther's birthdays consistent for StardewArchipelago.",
+    "UniqueID": "Witchybun.StardewArchipelagoJasper",
+    "MinimumApiVersion": "3.0",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+   {
+      "UniqueID": "Lemurkat.NPCJasper",
+      "IsRequired": true
+   }
+  ]
+}
