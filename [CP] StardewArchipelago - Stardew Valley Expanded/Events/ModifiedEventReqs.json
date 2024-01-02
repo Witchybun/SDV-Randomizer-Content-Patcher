@@ -427,6 +427,31 @@
             "Entries": {
                 "1090501/e 1000034/k 1090502/b 1": null
             }
-        }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "When": {
+              "HasSeenEvent": "908079",
+              "HasFlag": "Gil_Savage Ring",
+              "HasFlag": "lanceMonsterCrops",
+              "Season|contains=Winter": false
+            },
+            "Entries": {
+              "1090505/e 691039/f Krobus 2500/t 2000 2600/d Thu Fri": null
+            }
+          },
+          {
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "When": {
+              "HasSeenEvent": "908079",
+              "HasFlag": "lanceMonsterCrops",
+              "Season|contains=Winter": false
+            },
+            "Entries": {
+              "1090505/f Krobus 2500/t 2000 2600/d Thu Fri": "spring_night_ambient/-500 -500/farmer -20 -20 0 Krobus -21 -21 0/skippable/pause 1200/speak Krobus \"{{i18n:Krobus.10Hearts1.01}}\"/pause 1000/end dialogue Krobus \"{{i18n:Krobus.10Hearts1.02}}\""
+            }
+          }
     ]
 }
