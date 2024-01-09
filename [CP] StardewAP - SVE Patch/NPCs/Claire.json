@@ -1,4 +1,5 @@
 {
+  "Format": "1.29.0",
   "Changes": [
     {
       "Action": "EditData",
@@ -8,14 +9,14 @@
         "HasFlag": "apAbandonedJojaMart"
       },
       "Entries": {
-        "Mon": "0 Custom_Claire_WarpRoom 1 3 3",
-        "Tue": "0 Custom_Claire_WarpRoom 1 3 3",
-        "Wed": "0 Custom_Claire_WarpRoom 1 3 3",
-        "Thu": "0 Custom_Claire_WarpRoom 1 3 3",
-        "Fri": "0 Custom_Claire_WarpRoom 1 3 3",
-        "Sat": "0 Custom_Claire_WarpRoom 1 3 3",
-        "Sun": "0 Custom_Claire_WarpRoom 1 3 3",
-        "spring": "0 Custom_Claire_WarpRoom 1 3 3"
+        "Mon": "0 Custom_Claire_WarpRoom 1 3 3/610 Custom_Claire_WarpRoom 1 3 3",
+        "Tue": "0 Custom_Claire_WarpRoom 1 3 3/610 Custom_Claire_WarpRoom 1 3 3",
+        "Wed": "0 Custom_Claire_WarpRoom 1 3 3/610 Custom_Claire_WarpRoom 1 3 3",
+        "Thu": "0 Custom_Claire_WarpRoom 1 3 3/610 Custom_Claire_WarpRoom 1 3 3",
+        "Fri": "0 Custom_Claire_WarpRoom 1 3 3/610 Custom_Claire_WarpRoom 1 3 3",
+        "Sat": "0 Custom_Claire_WarpRoom 1 3 3/610 Custom_Claire_WarpRoom 1 3 3",
+        "Sun": "0 Custom_Claire_WarpRoom 1 3 3/610 Custom_Claire_WarpRoom 1 3 3",
+        "spring": "0 Custom_Claire_WarpRoom 1 3 3/610 Custom_Claire_WarpRoom 1 3 3"
       }
     },
     {
@@ -26,13 +27,13 @@
       },
       "Entries": {
         "Mon": "0 Custom_Claire_WarpRoom 1 3 3/650 Town 92 44 2/850 MovieTheater 7 5 2 Claire_Blink/2130 BusStop 12 8 0/2340 Custom_DayEnd_WarpRoom 3 3 0",
-        "Tue": "0 Custom_Claire_WarpRoom 1 3 3",
+        "Tue": "0 Custom_Claire_WarpRoom 1 3 3/610 Custom_Claire_WarpRoom 1 3 3",
         "Wed": "0 Custom_Claire_WarpRoom 1 3 3/650 Town 92 44 2/850 MovieTheater 7 5 2 Claire_Blink/2130 BusStop 12 8 0/2340 Custom_DayEnd_WarpRoom 3 3 0",
         "Thu": "0 Custom_Claire_WarpRoom 1 3 3/650 Town 92 44 2/850 MovieTheater 7 5 2 Claire_Blink/2130 BusStop 12 8 0/2340 Custom_DayEnd_WarpRoom 3 3 0",
         "Fri": "0 Custom_Claire_WarpRoom 1 3 3/650 Town 92 44 2/850 MovieTheater 7 5 2 Claire_Blink/2130 BusStop 12 8 0/2340 Custom_DayEnd_WarpRoom 3 3 0",
-        "Sat": "0 Custom_Claire_WarpRoom 1 3 3",
+        "Sat": "0 Custom_Claire_WarpRoom 1 3 3/610 Custom_Claire_WarpRoom 1 3 3",
         "Sun": "0 Custom_Claire_WarpRoom 1 3 3/650 Town 92 44 2/850 MovieTheater 7 5 2 Claire_Blink/2130 BusStop 12 8 0/2340 Custom_DayEnd_WarpRoom 3 3 0",
-        "spring": "0 Custom_Claire_WarpRoom 1 3 3"
+        "spring": "0 Custom_Claire_WarpRoom 1 3 3/610 Custom_Claire_WarpRoom 1 3 3"
       }
     },
     {
@@ -44,11 +45,11 @@
           "DayEvent": "flower dance, dance of the moonlight jellies, egg festival, feast of the winter star, festival of ice, luau, stardew valley fair, spirit's eve"
         },
         "Entries": {
-          "Mon": "0 Custom_Claire_WarpRoom 1 3 3",
-          "Wed": "0 Custom_Claire_WarpRoom 1 3 3",
-          "Thu": "0 Custom_Claire_WarpRoom 1 3 3",
-          "Fri": "0 Custom_Claire_WarpRoom 1 3 3",
-          "Sun": "0 Custom_Claire_WarpRoom 1 3 3"
+          "Mon": "0 Custom_Claire_WarpRoom 1 3 3/610 Custom_Claire_WarpRoom 1 3 3",
+          "Wed": "0 Custom_Claire_WarpRoom 1 3 3/610 Custom_Claire_WarpRoom 1 3 3",
+          "Thu": "0 Custom_Claire_WarpRoom 1 3 3/610 Custom_Claire_WarpRoom 1 3 3",
+          "Fri": "0 Custom_Claire_WarpRoom 1 3 3/610 Custom_Claire_WarpRoom 1 3 3",
+          "Sun": "0 Custom_Claire_WarpRoom 1 3 3/610 Custom_Claire_WarpRoom 1 3 3"
         }
       },
       {
@@ -59,9 +60,9 @@
           "DayEvent": "egg festival, feast of the winter star, stardew valley fair, spirit's eve"
         },
         "Entries": {
-          "Tue": "0 Custom_Claire_WarpRoom 1 3 3",
-          "Thu": "0 Custom_Claire_WarpRoom 1 3 3",
-          "Sat": "0 Custom_Claire_WarpRoom 1 3 3"
+          "Tue": "0 Custom_Claire_WarpRoom 1 3 3/610 Custom_Claire_WarpRoom 1 3 3",
+          "Thu": "0 Custom_Claire_WarpRoom 1 3 3/610 Custom_Claire_WarpRoom 1 3 3",
+          "Sat": "0 Custom_Claire_WarpRoom 1 3 3/610 Custom_Claire_WarpRoom 1 3 3"
         }
       },
       {

@@ -1,4 +1,5 @@
 {
+    "Format": "1.29.0",
     "Changes": [
         {
             "Action": "EditData",
@@ -433,7 +434,6 @@
             "Target": "Data/Events/Farm",
             "When": {
               "HasSeenEvent": "908079",
-              "HasFlag": "Gil_Savage Ring",
               "HasFlag": "lanceMonsterCrops",
               "Season|contains=Winter": false
             },
