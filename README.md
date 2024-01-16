@@ -3,7 +3,6 @@ This repository holds content meant to be used in conjunction with [StardewArchi
 
 The following mods are given additional patches to improve support:
 - Stardew Valley Expanded
-- Alecto the Witch
 - Professor Jasper Thomas
 
 These mods are required to be installed alongside the main mod only if you are using the mods in question during a randomizer run.
