@@ -1,0 +1,83 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/SpecialOrders",
+            "Update": "OnLocationChange",
+            "Entries": {
+                 "Robin3": {
+                      "Name": "[Robin3_Name]",
+                      "Requester": "Robin",
+                      "Duration": "Month",
+                      "Repeatable": "False",
+                      "RequiredTags": "event_2554902",
+                      "OrderType": "StardewValleyExpanded",
+                      "SpecialRule": "",
+                      "Text": "[Robin3_Text]",
+                      "ItemToRemoveOnEnd": null,
+                      "MailToRemoveOnEnd": null,
+                      "RandomizedElements": null,
+                      "Objectives": [
+                           {
+                                "Type": "Donate",
+                                "Text": "[Robin3_Objective_1_Text]",
+                                "RequiredCount": "150",
+                                "Data": {
+                                     "DropBox": "RobinTrunk",
+                                     "DropBoxGameLocation": "Custom_GrandpasShedOutside",
+                                     "DropBoxIndicatorLocation": "20.5 17",
+                                     "AcceptedContextTags": "item_hardwood"
+                                }
+                           },
+                           {
+                                "Type": "Donate",
+                                "Text": "[Robin3_Objective_2_Text]",
+                                "RequiredCount": "600",
+                                "Data": {
+                                     "DropBox": "RobinTrunk",
+                                     "DropBoxGameLocation": "Custom_GrandpasShedOutside",
+                                     "DropBoxIndicatorLocation": "20.5 17",
+                                     "AcceptedContextTags": "item_stone"
+                                }
+                           },
+                           {
+                                "Type": "Donate",
+                                "Text": "[Robin3_Objective_3_Text]",
+                                "RequiredCount": "50",
+                                "Data": {
+                                     "DropBox": "RobinTrunk",
+                                     "DropBoxGameLocation": "Custom_GrandpasShedOutside",
+                                     "DropBoxIndicatorLocation": "20.5 17",
+                                     "AcceptedContextTags": "item_iron_bar"
+                                }
+                           },
+                           {
+                                "Type": "Donate",
+                                "Text": "[Robin3_Objective_4_Text]",
+                                "RequiredCount": "20",
+                                "Data": {
+                                     "DropBox": "RobinTrunk",
+                                     "DropBoxGameLocation": "Custom_GrandpasShedOutside",
+                                     "DropBoxIndicatorLocation": "20.5 17",
+                                     "AcceptedContextTags": "item_battery_pack"
+                                }
+                           }
+                      ],
+                      "Rewards": [
+                           {
+                                "Type": "Mail",
+                                "Data": {
+                                     "Host": "true",
+                                     "NoLetter": "false"
+                                }
+                           },
+                           {
+                                "Type": "Friendship",
+                                "Data": {}
+                           }
+                      ]
+                 }
+            }
+       }
+    ]
+}
