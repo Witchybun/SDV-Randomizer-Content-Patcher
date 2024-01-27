@@ -1,0 +1,15 @@
+{
+    "Changes": [
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_GrandpasShedOutside",
+            "FromFile": "Maps/GrandpaShedFix.tbin",
+            "ToArea": {
+                "X": 20,
+                "Y": 19,
+                "Width": 2,
+                "Height": 2
+            }
+        }
+    ]
+}

@@ -23,9 +23,9 @@
                                 "Text": "[Robin3_Objective_1_Text]",
                                 "RequiredCount": "150",
                                 "Data": {
-                                     "DropBox": "RobinTrunk",
+                                     "DropBox": "apGSDrop",
                                      "DropBoxGameLocation": "Custom_GrandpasShedOutside",
-                                     "DropBoxIndicatorLocation": "20.5 17",
+                                     "DropBoxIndicatorLocation": "19.5 19",
                                      "AcceptedContextTags": "item_hardwood"
                                 }
                            },
@@ -34,9 +34,9 @@
                                 "Text": "[Robin3_Objective_2_Text]",
                                 "RequiredCount": "600",
                                 "Data": {
-                                     "DropBox": "RobinTrunk",
+                                     "DropBox": "apGSDrop",
                                      "DropBoxGameLocation": "Custom_GrandpasShedOutside",
-                                     "DropBoxIndicatorLocation": "20.5 17",
+                                     "DropBoxIndicatorLocation": "19.5 19",
                                      "AcceptedContextTags": "item_stone"
                                 }
                            },
@@ -45,9 +45,9 @@
                                 "Text": "[Robin3_Objective_3_Text]",
                                 "RequiredCount": "50",
                                 "Data": {
-                                     "DropBox": "RobinTrunk",
+                                     "DropBox": "apGSDrop",
                                      "DropBoxGameLocation": "Custom_GrandpasShedOutside",
-                                     "DropBoxIndicatorLocation": "20.5 17",
+                                     "DropBoxIndicatorLocation": "19.5 19",
                                      "AcceptedContextTags": "item_iron_bar"
                                 }
                            },
@@ -56,9 +56,9 @@
                                 "Text": "[Robin3_Objective_4_Text]",
                                 "RequiredCount": "20",
                                 "Data": {
-                                     "DropBox": "RobinTrunk",
+                                     "DropBox": "apGSDrop",
                                      "DropBoxGameLocation": "Custom_GrandpasShedOutside",
-                                     "DropBoxIndicatorLocation": "20.5 17",
+                                     "DropBoxIndicatorLocation": "19.5 19",
                                      "AcceptedContextTags": "item_battery_pack"
                                 }
                            }
@@ -68,6 +68,7 @@
                                 "Type": "Mail",
                                 "Data": {
                                      "Host": "true",
+                                     "MailReceived": "ShedRepaired",
                                      "NoLetter": "false"
                                 }
                            },
