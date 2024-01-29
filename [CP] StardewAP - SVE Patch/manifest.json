@@ -1,7 +1,7 @@
 {
     "Name": "StardewAP - SVE Patch",
     "Author": "Witchybun",
-    "Version": "1.0.2",
+    "Version": "1.1.0",
     "Description": "Patching SVE content patcher content to work with StardewArchipelago.",
     "UniqueID": "Witchybun.StardewArchipelagoSVE",
     "MinimumApiVersion": "3.0",

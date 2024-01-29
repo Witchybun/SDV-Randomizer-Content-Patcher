@@ -3,7 +3,7 @@
     "Changes": [
             {
       "Action": "Include",
-      "FromFile": "npcs/claire.json, npcs/martin.json, npcs/marlonfay.json, events/modifiedeventreqs.json, specialorders/auroravineyard.json, specialorders/grandpasshed.json, maps/grandpashedpatch.json"
+      "FromFile": "npcs/claire.json, npcs/martin.json, npcs/morris.json, npcs/marlonfay.json, events/modifiedeventreqs.json, specialorders/auroravineyard.json, specialorders/grandpasshed.json, maps/grandpashedpatch.json"
     }
     ]
 }

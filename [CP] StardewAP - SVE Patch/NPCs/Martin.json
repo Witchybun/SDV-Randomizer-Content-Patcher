@@ -1,10 +1,10 @@
 {
     "Changes": [
         {
-            "Action": "Load",
+            "Action": "EditData",
             "Target": "Characters/schedules/Martin",
             "When": {
-                "HasFlag | contains=apAbandonedJojaMart": false
+                "HasFlag | contains=abandonedJojaMartAccessible": false
               },
             "Entries": {
                 "Tue": "0 Custom_Martin_WarpRoom 1 3 3/800 JojaMart 9 25 1 Martin_Idle/2200 BusStop 12 8 0/2410 Custom_DayEnd_WarpRoom 3 3 0",
@@ -15,11 +15,11 @@
               }
         },
         {
-            "Action": "Load",
+            "Action": "EditData",
             "Target": "Characters/schedules/Martin",
             "When": {
                 "HasFlag |contains=ccMovieTheater": false,
-                "HasFlag": "apAbandonedJojaMart"
+                "HasFlag": "abandonedJojaMartAccessible"
               },
             "Entries": {
                 "Tue": "0 Custom_Martin_WarpRoom 1 3 3",
@@ -29,7 +29,7 @@
               }
         },
         {
-            "Action": "Load",
+            "Action": "EditData",
             "Target": "Characters/schedules/Martin",
             "When": {
                 "HasFlag": "ccMovieTheater"
@@ -40,6 +40,68 @@
                 "Sun": "0 Custom_Martin_WarpRoom 1 3 3/800 ArchaeologyHouse 7 16 2 Martin_Read/1240 BusStop 12 8 0/1500 Custom_DayEnd_WarpRoom 3 3 0",
                 "spring": "0 Custom_Martin_WarpRoom 1 3 3"
               }
-        }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Martin",
+            "When": {
+              "HasFlag": "ccMovieTheater",
+              "HasSeenEvent |contains=3219873": true,
+              "DayEvent": "flower dance, dance of the moonlight jellies, egg festival, feast of the winter star, festival of ice, luau, stardew valley fair, spirit's eve"
+            },
+            "Entries": {
+              "Mon": "0 Custom_Martin_WarpRoom 1 3 3",
+              "Wed": "0 Custom_Martin_WarpRoom 1 3 3",
+              "Thu": "0 Custom_Martin_WarpRoom 1 3 3",
+              "Fri": "0 Custom_Martin_WarpRoom 1 3 3",
+              "Sun": "0 Custom_Martin_WarpRoom 1 3 3"
+            }
+          },
+          {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Martin",
+            "When": {
+              "Spouse": "Claire"
+            },
+            "Entries": {
+              "Fri": "0 Custom_Martin_WarpRoom 1 3 3/800 JojaMart 9 25 1 Martin_Idle/2200 BusStop 12 8 0/2410 Custom_DayEnd_WarpRoom 3 3 0",
+              "rain": "0 Custom_Martin_WarpRoom 1 3 3/800 JojaMart 9 25 1 Martin_Idle/2200 BusStop 12 8 0/2410 Custom_DayEnd_WarpRoom 3 3 0"
+            }
+          },
+          {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Martin",
+            "When": {
+              "Spouse": "Claire",
+              "HasSeenEvent |contains=4269703": true
+            },
+            "Entries": {
+              "Wed": "0 Custom_Martin_WarpRoom 1 3 3/800 JojaMart 9 25 1 Martin_Idle/2200 BusStop 12 8 0/2410 Custom_DayEnd_WarpRoom 3 3 0"
+            }
+          },
+          {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Martin",
+            "When": {
+              "HasFlag": "ccMovieTheater",
+              "Spouse": "Claire"
+            },
+            "Entries": {
+              "Fri": "0 Custom_Martin_WarpRoom 1 3 3/650 Town 92 44 2/850 MovieTheater 7 5 2 Martin_Blink/2130 BusStop 12 8 0/2340 Custom_DayEnd_WarpRoom 3 3 0",
+              "rain": "0 Custom_Martin_WarpRoom 1 3 3/650 Town 92 44 2/850 MovieTheater 7 5 2 Martin_Blink/2130 BusStop 12 8 0/2340 Custom_DayEnd_WarpRoom 3 3 0"
+            }
+          },
+          {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Martin",
+            "When": {
+              "HasFlag": "ccMovieTheater",
+              "Spouse": "Claire",
+              "HasSeenEvent |contains=4269703": true
+            },
+            "Entries": {
+              "Wed": "0 Custom_Martin_WarpRoom 1 3 3/650 Town 92 44 2/850 MovieTheater 7 5 2 Martin_Blink/2130 BusStop 12 8 0/2340 Custom_DayEnd_WarpRoom 3 3 0"
+            }
+          }
     ]
 }
