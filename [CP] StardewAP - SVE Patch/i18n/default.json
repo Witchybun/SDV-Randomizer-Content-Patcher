@@ -2,5 +2,12 @@
     "Apples.OrderEvent1.01": "I dreamed that the tablet I got sent floated over to Aurora Vineyard...",
     "Apples.OrderEvent1.02": "I couldn't sleep last night...$2#$b#Being sent that tablet...it was moving to Aurora Vineyard.$0#$e#Strange, right?$1",
     "Krobus.10Hearts1.01": "'Friends' are visiting me tomorrow. They want to meet you.$0#$b#Drop by my home in the sewers, okay?$1",
-    "Krobus.10Hearts1.02": "I get the feeling something serious is going on...$0"
+    "Krobus.10Hearts1.02": "I get the feeling something serious is going on...$0",
+    "Andy.BetterLIfe.01": "Hey there, farmer!",
+    "Andy.BetterLIfe.02": "What do ya think? Cleaned up the house and bought new furniture.$1#$b#Been usin' Pierre's seeds instead of Joja's and as a result I've been earnin' more.$0",
+    "Andy.BetterLife.02A": "What do ya think? Cleaned up the house and bought new furniture.$1#$b#Joja's been spikin' demand, and as a result I've been earnin' more. Goes to show what good leadership can do.$0",
+    "Andy.BetterLIfe.03": "Say, want something to eat? Just made a nice farmer's lunch.$0",
+    "Andy.BetterLIfe.04": "Andy's house is in good shape now! The meal we ate together was prepared with fresh forage outside. Delicious!",
+    "Andy.BetterLIfe.05": "Since Joja left town, I've had a change in life style.$0#$e#Not gettin' rid of this here hat though. It's my favorite.$2",
+    "Andy.BetterLife.05A": "Joja will do right to us farmers.$1"
 }

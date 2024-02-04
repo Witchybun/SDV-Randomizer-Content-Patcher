@@ -451,6 +451,23 @@
             "Entries": {
               "1090505/f Krobus 2500/t 2000 2600/d Thu Fri": "spring_night_ambient/-500 -500/farmer -20 -20 0 Krobus -21 -21 0/skippable/pause 1200/speak Krobus \"{{i18n:Krobus.10Hearts1.01}}\"/pause 1000/end dialogue Krobus \"{{i18n:Krobus.10Hearts1.02}}\""
             }
+          },
+          {
+            "Action": "EditData",
+            "Target": "data/events/Custom_AndyHouse",
+            "Entries": {
+              "5000005/e 191393": null
+            }
+          },
+          {
+            "Action": "EditData",
+            "Target": "data/events/Custom_AndyHouse",
+            "When": {
+                "HasFlag": "abandonedJojaMartAccessible"
+            },
+            "Entries": {
+                "5000005": "kindadumbautumn/-500 -500/farmer -200 -200 0 Andy 12 16 0/pause 700/skippable/viewport 12 18 true/pause 1500/warp farmer 12 22/playSound doorClose/pause 400/faceDirection Andy 2/pause 350/textAboveHead Andy \"{{i18n:Andy.BetterLife.01}}\"/pause 1000/move farmer 0 -3 0/pause 800/faceDirection farmer 3/pause 1000/faceDirection farmer 0 true/pause 250/faceDirection farmer 1/pause 800/faceDirection farmer 0/pause 400/speak Andy \"{{i18n:Andy.BetterLife.02}}\"/pause 800/faceDirection Andy 1/pause 600/faceDirection Andy 2/pause 300/speak Andy \"{{i18n:Andy.BetterLife.03}}\"/pause 300/emote farmer 32 true/pause 200/globalFade/viewport -1000 -1000/pause 1000/message \"{{i18n:Andy.BetterLife.04}}\"/pause 1000/end dialogue Andy \"{{i18n:Andy.BetterLife.05}}\""
+            }
           }
     ]
 }
